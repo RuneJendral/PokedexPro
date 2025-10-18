@@ -1,0 +1,11 @@
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\bin\Debug\net8.0\PokedexLibrary.deps.json
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\bin\Debug\net8.0\PokedexLibrary.dll
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\bin\Debug\net8.0\PokedexLibrary.pdb
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Debug\net8.0\PokedexLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Debug\net8.0\PokedexLibrary.AssemblyInfoInputs.cache
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Debug\net8.0\PokedexLibrary.AssemblyInfo.cs
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Debug\net8.0\PokedexLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Debug\net8.0\PokedexLibrary.dll
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Debug\net8.0\refint\PokedexLibrary.dll
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Debug\net8.0\PokedexLibrary.pdb
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Debug\net8.0\ref\PokedexLibrary.dll
