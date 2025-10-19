@@ -1,6 +1,6 @@
-﻿namespace PokedexLibrary.Dtos
+﻿namespace PokedexLibrary.API.DTOs.Pokemon
 {
-   public record Pokemon(
+    public record Pokemon(
         [property: JsonPropertyName("abilities")] IReadOnlyList<Ability> Abilities,
         [property: JsonPropertyName("base_experience")] long BaseExperience,
         [property: JsonPropertyName("forms")] IReadOnlyList<Species> Forms,
@@ -15,7 +15,7 @@
         [property: JsonPropertyName("order")] long Order,
         [property: JsonPropertyName("species")] Species Species,
         [property: JsonPropertyName("sprites")] Sprites Sprites,
-        [property: JsonPropertyName("stats")] IReadOnlyList<Stat> Stats,
+        [property: JsonPropertyName("stats")] IReadOnlyList<Stats> Stats,
         [property: JsonPropertyName("types")] IReadOnlyList<TypeElement> Types,
         [property: JsonPropertyName("weight")] long Weight
     );

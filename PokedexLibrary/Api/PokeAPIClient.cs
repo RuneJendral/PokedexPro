@@ -1,34 +1,34 @@
-﻿using PokedexLibrary.Dtos;
+﻿using PokedexLibrary.API.DTOs.Pokemon;
 using System.Net;
 
-namespace PokedexLibrary.Api
+namespace PokedexLibrary.API
 {
-    public class PokeAPIClient :IPokeAPIClient
+    public class PokeApiClient :IApiClient
     {
-        public async Task<Pokemon?> GetPokemonAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<Pokemon>($"pokemon/{idOrName}", cancellationToken);
-        public async Task<Ability?> GetAbilityAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<Ability>($"ability/{idOrName}", cancellationToken);
-        public async Task<Move?> GetMoveAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<Move>($"move/{idOrName}", cancellationToken);
-      
         private readonly HttpClient _client;
 
-        public PokeAPIClient(HttpClient? client = null)
+        public PokeApiClient(HttpClient? client = null)
         {
             _client = client ?? new HttpClient{BaseAddress = new Uri("https://pokeapi.co/api/v2/")};
             _client.Timeout = TimeSpan.FromSeconds(30);
         }
 
-        private async Task<T?> Fetch<T>(string endpoint, CancellationToken cancellationToken = default) where T : class
+        public async Task<Pokemon?> GetPokemonAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<Pokemon>($"pokemon/{idOrName}", cancellationToken);
+        public async Task<Ability?> GetAbilityAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<Ability>($"ability/{idOrName}", cancellationToken);
+        public async Task<Move?> GetMoveAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<Move>($"move/{idOrName}", cancellationToken);
+
+        public async Task<T?> Fetch<T>(string endpoint, CancellationToken cancellationToken = default) where T : class
         {          
             try
             {
-                var response = await _client.GetAsync(endpoint, cancellationToken);
+                HttpResponseMessage response = await _client.GetAsync(endpoint, cancellationToken);
 
                 if (response.StatusCode == HttpStatusCode.NotFound)
                     return null;
 
                 response.EnsureSuccessStatusCode();
 
-                var jsonResponse = await response.Content.ReadAsStringAsync(cancellationToken);
+                string jsonResponse = await response.Content.ReadAsStringAsync(cancellationToken);
                 return JsonSerializer.Deserialize<T>(jsonResponse);
             }
             catch (HttpRequestException ex)

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PokedexLibrary.Dtos
+﻿namespace PokedexLibrary.API.DTOs.Pokemon
 {
-    public record Stat(
+    public record Stats(
         [property: JsonPropertyName("base_stat")] long BaseStat,
         [property: JsonPropertyName("effort")] long Effort,
         [property: JsonPropertyName("stat")] Species StatValue

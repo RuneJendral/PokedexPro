@@ -1,4 +1,4 @@
-﻿namespace PokedexLibrary.Dtos
+﻿namespace PokedexLibrary.API.DTOs.Pokemon
 {
     public record Move(
         [property: JsonPropertyName("move")] Species MoveValue,

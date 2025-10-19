@@ -16,3 +16,4 @@ C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexTester\obj\Debug\net8.0\refin
 C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexTester\obj\Debug\net8.0\PokedexTester.pdb
 C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexTester\obj\Debug\net8.0\PokedexTester.genruntimeconfig.cache
 C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexTester\obj\Debug\net8.0\ref\PokedexTester.dll
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexTester\obj\Debug\net8.0\PokedexTester.sourcelink.json

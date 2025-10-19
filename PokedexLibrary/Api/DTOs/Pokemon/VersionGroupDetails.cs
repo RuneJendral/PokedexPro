@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PokedexLibrary.Dtos
+﻿namespace PokedexLibrary.API.DTOs.Pokemon
 {
     public record VersionGroupDetails(
         [property: JsonPropertyName("level_learned_at")] long LevelLearnedAt,

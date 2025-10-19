@@ -9,3 +9,4 @@ C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\Po
 C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\refint\PokedexLibrary.dll
 C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.pdb
 C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\ref\PokedexLibrary.dll
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.sourcelink.json
