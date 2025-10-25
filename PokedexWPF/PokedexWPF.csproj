@@ -12,10 +12,4 @@
     <None Remove="Resources\Fonts\8-Bit Madness.ttf" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="Resources\Fonts\8-Bit Madness.ttf">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-
 </Project>
