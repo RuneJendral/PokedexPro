@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokedexWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90988d980c6b84aed9d0589c2b160e47222d52c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c20280aa29ee7135a88c9fc450a277324cf0ac98")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokedexWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokedexWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

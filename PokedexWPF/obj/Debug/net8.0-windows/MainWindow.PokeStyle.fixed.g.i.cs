@@ -52,7 +52,7 @@ namespace PokedexWPF.MainWindow {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PokedexWPF;component/mainwindow.pokestyle.fixed.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PokedexWPF;V1.0.0.0;component/mainwindow.pokestyle.fixed.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainWindow.PokeStyle.fixed.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{95C55B19-EEC0-E2E4-B7A8-C6DCBEEC9AC9}|PokedexWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95C55B19-EEC0-E2E4-B7A8-C6DCBEEC9AC9}|PokedexWPF.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexwpf\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{95C55B19-EEC0-E2E4-B7A8-C6DCBEEC9AC9}|PokedexWPF.csproj|solutionrelative:mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95C55B19-EEC0-E2E4-B7A8-C6DCBEEC9AC9}|PokedexWPF.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95C55B19-EEC0-E2E4-B7A8-C6DCBEEC9AC9}|PokedexWPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
@@ -30,15 +26,15 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexWPF\\MainWindow.xaml*",
-              "RelativeToolTip": "MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexWPF\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-18T09:48:31.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -48,40 +44,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T09:48:31.604Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "a3cfcd1a-8951-4ab5-8bf7-44cdf9c530e9",
-        "Display": 0,
-        "X": 0,
-        "Y": 60,
-        "Width": 800,
-        "Height": 600,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexWPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexWPF\\MainWindow.xaml*",
-              "RelativeToolTip": "MainWindow.xaml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-25T18:37:34.581Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

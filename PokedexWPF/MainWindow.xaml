@@ -25,6 +25,13 @@
             <Setter Property="Foreground" Value="#ffffff"/>
         </Style>
 
+        <Style x:Key="Text" TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+            <Setter Property="FontFamily" Value="/PokedexWPF;component/Resources/Fonts/Nunito/#Nunito"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#ffffff"/>
+        </Style>
+
         <Style x:Key="Button" TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
             <Setter Property="FontFamily" Value="/PokedexWPF;component/Resources/Fonts/Nunito/#Nunito"/>
             <Setter Property="FontSize" Value="25"/>
@@ -44,10 +51,7 @@
             <Setter Property="Foreground" Value="#212529"/>
             <Setter Property="Background" Value="{StaticResource ButtonBackground}"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
-
             <Setter Property="BorderBrush" Value="{StaticResource ButtonBackground}"/>
-
-
             <Style.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -97,7 +101,8 @@
 
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.15*"/>
+                <ColumnDefinition Width="0.03*"/>
+                <ColumnDefinition Width="0.12*"/>
                 <ColumnDefinition Width="0.4*"/>
                 <ColumnDefinition Width="0.4*"/>
                 <ColumnDefinition Width="0.05*"/>
@@ -105,10 +110,60 @@
 
             <Grid Grid.Column="0">
 
+
             </Grid>
 
             <Grid Grid.Column="1">
-              
+                <StackPanel DockPanel.Dock="Right" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                    <TextBlock Text="Height: 0,7m" Style="{StaticResource Text}">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="2" Color="Black" Opacity="0.25" BlurRadius="5"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+
+                    <TextBlock Text="Weigth: 6,9kg" Style="{StaticResource Text}">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="2" Color="Black" Opacity="0.25" BlurRadius="5"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+
+                </StackPanel>
+
+            </Grid>
+
+            <Grid Grid.Column="2" Margin="88,96,88,96">
+                <Image Source="/PokedexWPF;component/Resources/Images/1.png" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+
+
+            <Grid Grid.Column="3">
+                <StackPanel DockPanel.Dock="Right" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" DockPanel.Dock="Left">
+                        <Image Source="/PokedexWPF;component/Resources/Images/grass.png" Width="150"/>
+                        <Image Source="/PokedexWPF;component/Resources/Images/poison.png" Width="150" Margin="20,0,0,0"/>
+                    </StackPanel>
+                    
+                    <TextBlock Text="Base stats:" Style="{StaticResource Titel}">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="2" Color="Black" Opacity="0.25" BlurRadius="5"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" DockPanel.Dock="Left">
+                        <TextBlock Text="HP: 45" Style="{StaticResource Caption}"/>
+                        <TextBlock Text="Attack: 49" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
+                        <TextBlock Text="Defense: 49" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" DockPanel.Dock="Left">
+                        <TextBlock Text="Sp. Attack: 65" Style="{StaticResource Caption}"/>
+                        <TextBlock Text="Sp. Defense: 65" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
+                        <TextBlock Text="Speed: 45" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
+                    </StackPanel>
+
+
+                </StackPanel>
+
             </Grid>
         </Grid>
 
