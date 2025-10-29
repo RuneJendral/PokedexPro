@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\PokedexTester.csproj": {}
+    "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\PokedexTester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\PokedexTester.csproj": {
+    "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\PokedexTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\PokedexTester.csproj",
+        "projectUniqueName": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\PokedexTester.csproj",
         "projectName": "PokedexTester",
-        "projectPath": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\PokedexTester.csproj",
-        "packagesPath": "C:\\Users\\Rune\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\obj\\",
+        "projectPath": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\PokedexTester.csproj",
+        "packagesPath": "C:\\Users\\runej\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexTester\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rune\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\runej\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

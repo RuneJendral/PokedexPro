@@ -1,4 +1,6 @@
-﻿namespace PokedexLibrary.API.DTOs.Pokemon
+﻿using PokedexLibrary.Api.DTOs.Pokemon;
+
+namespace PokedexLibrary.API.DTOs.Pokemon
 {
     public record Sprites(
         [property: JsonPropertyName("back_default")] Uri BackDefault,
@@ -8,6 +10,7 @@
         [property: JsonPropertyName("front_default")] Uri FrontDefault,
         [property: JsonPropertyName("front_female")] object FrontFemale,
         [property: JsonPropertyName("front_shiny")] Uri FrontShiny,
-        [property: JsonPropertyName("front_shiny_female")] object FrontShinyFemale
+        [property: JsonPropertyName("front_shiny_female")] object FrontShinyFemale,
+        [property: JsonPropertyName("other")] OtherSprites? Other
     );
 }

@@ -10,3 +10,15 @@ C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\re
 C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.pdb
 C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\ref\PokedexLibrary.dll
 C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.sourcelink.json
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\bin\Release\net8.0\PokedexLibrary.deps.json
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\bin\Release\net8.0\PokedexLibrary.dll
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\bin\Release\net8.0\PokedexLibrary.pdb
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.AssemblyInfoInputs.cache
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.AssemblyInfo.cs
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.csproj.CoreCompileInputs.cache
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.sourcelink.json
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.dll
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\refint\PokedexLibrary.dll
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\PokedexLibrary.pdb
+C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexLibrary\obj\Release\net8.0\ref\PokedexLibrary.dll

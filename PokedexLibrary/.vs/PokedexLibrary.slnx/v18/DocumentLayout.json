@@ -1,69 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\",
+  "WorkspaceRootPath": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\calculations\\statconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:calculations\\statconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\calculations\\common\\basestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:calculations\\common\\basestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\calculations\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:calculations\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\pokeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\pokeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\calculations\\common\\convertedstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:calculations\\common\\convertedstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\versiongroupdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\versiongroupdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\typeelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\typeelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\sprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\sprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\sprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\gameindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\gameindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\othersprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\othersprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\officialartwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\officialartwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\typeelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\typeelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\rune\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\gameindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\gameindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\versiongroupdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\versiongroupdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\pokeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\pokeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\calculations\\statconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:calculations\\statconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\calculations\\common\\basestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:calculations\\common\\basestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\calculations\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:calculations\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\calculations\\common\\convertedstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:calculations\\common\\convertedstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\api\\dtos\\pokemon\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:api\\dtos\\pokemon\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|c:\\users\\runej\\documents\\gitrepos\\pokedexpro\\pokedexlibrary\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A99DECD-35F1-65B7-4B62-62976076ECE9}|PokedexLibrary.csproj|solutionrelative:globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -74,29 +82,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "OfficialArtwork.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\OfficialArtwork.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\OfficialArtwork.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\OfficialArtwork.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\OfficialArtwork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:31:56.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OtherSprites.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\OtherSprites.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\OtherSprites.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\OtherSprites.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\OtherSprites.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:31:28.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Pokemon.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Pokemon.cs",
-              "RelativeDocumentMoniker": "API\\DTOs\\Pokemon\\Pokemon.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Pokemon.cs",
-              "RelativeToolTip": "API\\DTOs\\Pokemon\\Pokemon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Pokemon.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T09:29:02.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Species.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Species.cs",
-              "RelativeDocumentMoniker": "API\\DTOs\\Pokemon\\Species.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Species.cs",
-              "RelativeToolTip": "API\\DTOs\\Pokemon\\Species.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Species.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\Species.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Species.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\Species.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T09:29:05.968Z",
@@ -104,25 +138,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TypeElement.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\TypeElement.cs",
-              "RelativeDocumentMoniker": "API\\DTOs\\Pokemon\\TypeElement.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\TypeElement.cs",
-              "RelativeToolTip": "API\\DTOs\\Pokemon\\TypeElement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T09:29:16.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "VersionGroupDetails.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\VersionGroupDetails.cs",
-              "RelativeDocumentMoniker": "API\\DTOs\\Pokemon\\VersionGroupDetails.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\VersionGroupDetails.cs",
-              "RelativeToolTip": "API\\DTOs\\Pokemon\\VersionGroupDetails.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\VersionGroupDetails.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\VersionGroupDetails.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\VersionGroupDetails.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\VersionGroupDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T09:29:19.145Z",
@@ -130,38 +151,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "StatConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\StatConverter.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\StatConverter.cs",
               "RelativeDocumentMoniker": "Calculations\\StatConverter.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\StatConverter.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\StatConverter.cs",
               "RelativeToolTip": "Calculations\\StatConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T19:51:36.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ConvertedStats.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Common\\ConvertedStats.cs",
-              "RelativeDocumentMoniker": "Calculations\\Common\\ConvertedStats.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Common\\ConvertedStats.cs",
-              "RelativeToolTip": "Calculations\\Common\\ConvertedStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T20:02:21.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Stats.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Stats.cs",
-              "RelativeDocumentMoniker": "API\\DTOs\\Pokemon\\Stats.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Stats.cs",
-              "RelativeToolTip": "API\\DTOs\\Pokemon\\Stats.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Stats.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\Stats.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Stats.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\Stats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T20:06:15.569Z",
@@ -169,25 +177,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Enums.cs",
-              "RelativeDocumentMoniker": "Calculations\\Enums.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Enums.cs",
-              "RelativeToolTip": "Calculations\\Enums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T20:22:37.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "IApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\IApiClient.cs",
-              "RelativeDocumentMoniker": "API\\IApiClient.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\IApiClient.cs",
-              "RelativeToolTip": "API\\IApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\IApiClient.cs",
+              "RelativeDocumentMoniker": "Api\\IApiClient.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\IApiClient.cs",
+              "RelativeToolTip": "Api\\IApiClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T20:45:44.157Z",
@@ -195,64 +190,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PokeApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\PokeApiClient.cs",
-              "RelativeDocumentMoniker": "API\\PokeApiClient.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\PokeApiClient.cs",
-              "RelativeToolTip": "API\\PokeApiClient.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "PokeAPIClient.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\PokeAPIClient.cs",
+              "RelativeDocumentMoniker": "Api\\PokeAPIClient.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\PokeAPIClient.cs",
+              "RelativeToolTip": "Api\\PokeAPIClient.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T20:45:45.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseStats.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Common\\BaseStats.cs",
-              "RelativeDocumentMoniker": "Calculations\\Common\\BaseStats.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Common\\BaseStats.cs",
-              "RelativeToolTip": "Calculations\\Common\\BaseStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T20:01:07.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "Sprites.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Sprites.cs",
-              "RelativeDocumentMoniker": "API\\DTOs\\Pokemon\\Sprites.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Sprites.cs",
-              "RelativeToolTip": "API\\DTOs\\Pokemon\\Sprites.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Sprites.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\Sprites.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Sprites.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\Sprites.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T09:29:09.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Move.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Move.cs",
-              "RelativeDocumentMoniker": "API\\DTOs\\Pokemon\\Move.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Move.cs",
-              "RelativeToolTip": "API\\DTOs\\Pokemon\\Move.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T09:28:59.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "GameIndex.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\GameIndex.cs",
-              "RelativeDocumentMoniker": "API\\DTOs\\Pokemon\\GameIndex.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\GameIndex.cs",
-              "RelativeToolTip": "API\\DTOs\\Pokemon\\GameIndex.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\GameIndex.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\GameIndex.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\GameIndex.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\GameIndex.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T09:28:56.711Z",
@@ -260,12 +229,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "Ability.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Ability.cs",
-              "RelativeDocumentMoniker": "API\\DTOs\\Pokemon\\Ability.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\API\\DTOs\\Pokemon\\Ability.cs",
-              "RelativeToolTip": "API\\DTOs\\Pokemon\\Ability.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Ability.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\Ability.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Ability.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\Ability.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T09:26:30.419Z",
@@ -273,16 +242,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TypeElement.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\TypeElement.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\TypeElement.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\TypeElement.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\TypeElement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T09:29:16.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseStats.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Common\\BaseStats.cs",
+              "RelativeDocumentMoniker": "Calculations\\Common\\BaseStats.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Common\\BaseStats.cs",
+              "RelativeToolTip": "Calculations\\Common\\BaseStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T20:01:07.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Enums.cs",
+              "RelativeDocumentMoniker": "Calculations\\Enums.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Enums.cs",
+              "RelativeToolTip": "Calculations\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T20:22:37.204Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "ConvertedStats.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Common\\ConvertedStats.cs",
+              "RelativeDocumentMoniker": "Calculations\\Common\\ConvertedStats.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Calculations\\Common\\ConvertedStats.cs",
+              "RelativeToolTip": "Calculations\\Common\\ConvertedStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T20:02:21.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Move.cs",
+              "RelativeDocumentMoniker": "Api\\DTOs\\Pokemon\\Move.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\Api\\DTOs\\Pokemon\\Move.cs",
+              "RelativeToolTip": "Api\\DTOs\\Pokemon\\Move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T09:28:59.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\Rune\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\runej\\Documents\\GitRepos\\PokedexPro\\PokedexLibrary\\GlobalUsings.cs",
               "RelativeToolTip": "GlobalUsings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T09:36:36.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T09:36:36.463Z"
             }
           ]
         }
