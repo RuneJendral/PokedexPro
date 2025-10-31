@@ -4,14 +4,19 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PokedexWPF" d:DataContext="{d:DesignInstance Type=local:MainViewModel}"
+        xmlns:conv="clr-namespace:PokedexWPF.Converters"
         mc:Ignorable="d"
-        Title="PokédexPro" Height="720" Width="1280" Background="#92d1b4" WindowStartupLocation="CenterScreen">
+        Title="PokédexPro" Height="720" Width="1280" WindowStartupLocation="CenterScreen">
 
     <Window.DataContext>
         <local:MainViewModel/>
     </Window.DataContext>
 
     <Window.Resources>
+        <conv:WeightToKgConverter x:Key="WeightToKg"/>
+        <conv:HeihtToMeterConverter x:Key="HeightToM"/>
+        <conv:PokemonTypeToBrushConverter x:Key="TypeBrush"/>
+
         <SolidColorBrush x:Key="BackgroundColor" Color="#0F172A"/>
         <SolidColorBrush x:Key="ButtonBackground" Color="#f8f9fa" Opacity=".9"/>
 
@@ -65,7 +70,8 @@
 
     </Window.Resources>
 
-    <Grid>
+    <Grid x:Name="BgHost" Background="{Binding PrimaryType, Converter={StaticResource TypeBrush}}">
+
         <Grid.RowDefinitions>
             <RowDefinition Height="0.2*"/>
             <RowDefinition Height="0.8*"/>
@@ -79,7 +85,7 @@
 
             <Grid Grid.Column="0">
                 <StackPanel DockPanel.Dock="Right" VerticalAlignment="Center" Margin="20,0,0,0">
-                    <TextBlock Text="#001" Style="{StaticResource Caption}">
+                    <TextBlock Text="{Binding Pokemon.Id, StringFormat=#{0}}" Style="{StaticResource Caption}">
                         <TextBlock.Effect>
                             <DropShadowEffect ShadowDepth="2" Color="Black" Opacity="0.25" BlurRadius="5"/>
                         </TextBlock.Effect>
@@ -119,13 +125,13 @@
 
             <Grid Grid.Column="1">
                 <StackPanel DockPanel.Dock="Right" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
-                    <TextBlock Text="Height: 0,7m" Style="{StaticResource Text}">
+                    <TextBlock Text="{Binding Pokemon.Height, Converter={StaticResource HeightToM}}" Style="{StaticResource Text}">
                         <TextBlock.Effect>
                             <DropShadowEffect ShadowDepth="2" Color="Black" Opacity="0.25" BlurRadius="5"/>
                         </TextBlock.Effect>
                     </TextBlock>
 
-                    <TextBlock Text="Weigth: 6,9kg" Style="{StaticResource Text}">
+                    <TextBlock Text="{Binding Pokemon.Weight, Converter={StaticResource WeightToKg}}" Style="{StaticResource Text}">
                         <TextBlock.Effect>
                             <DropShadowEffect ShadowDepth="2" Color="Black" Opacity="0.25" BlurRadius="5"/>
                         </TextBlock.Effect>
@@ -154,15 +160,16 @@
                     </TextBlock>
 
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" DockPanel.Dock="Left">
-                        <TextBlock Text="HP: 45" Style="{StaticResource Caption}"/>
-                        <TextBlock Text="Attack: 49" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
-                        <TextBlock Text="Defense: 49" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
+                        <TextBlock Text="{Binding BaseStats.HP, StringFormat=HP: {0}}" Style="{StaticResource Caption}"/>
+
+                        <TextBlock Text="{Binding BaseStats.Attack, StringFormat=Attack: {0}}" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
+                        <TextBlock Text="{Binding BaseStats.Defense, StringFormat=Defense: {0}}" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
                     </StackPanel>
 
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" DockPanel.Dock="Left">
-                        <TextBlock Text="Sp. Attack: 65" Style="{StaticResource Caption}"/>
-                        <TextBlock Text="Sp. Defense: 65" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
-                        <TextBlock Text="Speed: 45" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
+                        <TextBlock Text="{Binding BaseStats.SpAttack, StringFormat=Sp. Attack: {0}}" Style="{StaticResource Caption}"/>
+                        <TextBlock Text="{Binding BaseStats.SpDefense, StringFormat=Sp. Defense: {0}}" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
+                        <TextBlock Text="{Binding BaseStats.Speed, StringFormat=Speed: {0}}" Style="{StaticResource Caption}" Margin="20,0,0,0"/>
                     </StackPanel>
 
 

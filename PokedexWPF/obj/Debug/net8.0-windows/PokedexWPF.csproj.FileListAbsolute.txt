@@ -45,3 +45,8 @@ C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexWPF\bin\Debug\net8.0-windows
 C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexWPF\obj\Debug\net8.0-windows\PokedexWPF.csproj.AssemblyReference.cache
 C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexWPF\obj\Debug\net8.0-windows\PokedexWPF.csproj.Up2Date
 C:\Users\runej\Documents\GitRepos\PokedexPro\PokedexWPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexWPF\bin\Debug\net8.0-windows\PokedexLibrary.dll
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexWPF\bin\Debug\net8.0-windows\PokedexLibrary.pdb
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexWPF\obj\Debug\net8.0-windows\PokedexWPF.csproj.AssemblyReference.cache
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexWPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rune\Documents\GitRepos\PokedexPro\PokedexWPF\obj\Debug\net8.0-windows\PokedexWPF.csproj.Up2Date

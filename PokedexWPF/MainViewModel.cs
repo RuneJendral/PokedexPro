@@ -6,6 +6,7 @@ using System;
 using System.Linq;
 using PokedexLibrary.API;
 using PokedexLibrary.API.DTOs.Pokemon;
+using PokedexLibrary.Calculations.Common;
 
 namespace PokedexWPF
 {
@@ -19,6 +20,10 @@ namespace PokedexWPF
         private string? _error;
         private string? _japaneseName;
 
+        public event PropertyChangedEventHandler? PropertyChanged;
+        private void OnPropertyChanged([CallerMemberName] string? n = null)
+            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(n));
+
         public string Query
         {
             get => _query;
@@ -28,10 +33,32 @@ namespace PokedexWPF
         public Pokemon? Pokemon
         {
             get => _pokemon;
-            private set { _pokemon = value; OnPropertyChanged(); OnPropertyChanged(nameof(PrimaryType)); }
+            private set { _pokemon = value; OnPropertyChanged(); OnPropertyChanged(nameof(PrimaryType)); OnPropertyChanged(nameof(BaseStats)); }
         }
 
         public string? PrimaryType => Pokemon?.Types?.Count > 0 ? Pokemon.Types[0].Type.Name : null;
+        public string? SecondaryType => Pokemon?.Types?.Count > 1 ? Pokemon.Types[1].Type.Name : null;
+
+
+        public BaseStats BaseStats
+        {
+            get
+            {
+                if (Pokemon?.Stats is null)
+                    return default;
+
+                int Get(string name) => (int?)Pokemon.Stats.FirstOrDefault(s => s.StatValue.Name.Equals(name, StringComparison.OrdinalIgnoreCase))?.BaseStat ?? 0;
+
+                return new BaseStats(
+                    Get("hp"),
+                    Get("attack"),
+                    Get("defense"),
+                    Get("special-attack"),
+                    Get("special-defense"),
+                    Get("speed")
+                    );
+            }
+        }
 
         public Uri? Artwork
         {
@@ -88,10 +115,6 @@ namespace PokedexWPF
                 IsBusy = false;
             }
         }
-
-        public event PropertyChangedEventHandler? PropertyChanged;
-        private void OnPropertyChanged([CallerMemberName] string? n = null)
-            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(n));
     }
 
     public sealed class AsyncCommand : ICommand

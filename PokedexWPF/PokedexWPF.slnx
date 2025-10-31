@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../PokedexLibrary/PokedexLibrary.csproj" />
   <Project Path="PokedexWPF.csproj" />
 </Solution>
