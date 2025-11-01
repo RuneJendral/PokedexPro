@@ -97,14 +97,10 @@ namespace PokedexWPF
                 Pokemon = await _api.GetPokemonAsync(Query, ct);   
                 if (Pokemon is null) { Artwork = null; JapaneseName = null; return; }
 
-                Artwork = Pokemon.Sprites?.Other?.OfficialArtwork?.FrontDefault
-                          ?? Pokemon.Sprites?.FrontDefault;
+                Artwork = Pokemon.Sprites?.Other?.OfficialArtwork?.FrontDefault ?? Pokemon.Sprites?.FrontDefault;
 
-                // var species = await _api.GetSpeciesAsync(Pokemon.Name, ct);
-                // JapaneseName = species?.Names?.FirstOrDefault(n => 
-                //     n.Language.Name.Equals("ja-Hrkt", StringComparison.OrdinalIgnoreCase))?.Name
-                //     ?? species?.Names?.FirstOrDefault(n => 
-                //     n.Language.Name.Equals("ja", StringComparison.OrdinalIgnoreCase))?.Name;
+                var species = await _api.GetLocalizedNamesAsync(Pokemon.Name, ct);
+                JapaneseName = species?.Names?.FirstOrDefault(n => n.Language.Name.Equals("ja-Hrkt", StringComparison.OrdinalIgnoreCase))?.Name ?? species?.Names?.FirstOrDefault(n => n.Language.Name.Equals("ja", StringComparison.OrdinalIgnoreCase))?.Name;
             }
             catch (Exception ex)
             {

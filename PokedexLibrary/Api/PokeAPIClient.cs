@@ -1,4 +1,5 @@
-﻿using PokedexLibrary.API.DTOs.Pokemon;
+﻿using PokedexLibrary.Api.DTOs.Pokemon;
+using PokedexLibrary.API.DTOs.Pokemon;
 using System.Net;
 
 namespace PokedexLibrary.API
@@ -16,6 +17,7 @@ namespace PokedexLibrary.API
         public async Task<Pokemon?> GetPokemonAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<Pokemon>($"pokemon/{idOrName}", cancellationToken);
         public async Task<Ability?> GetAbilityAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<Ability>($"ability/{idOrName}", cancellationToken);
         public async Task<Move?> GetMoveAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<Move>($"move/{idOrName}", cancellationToken);
+        public async Task<SpeciesDetails?> GetLocalizedNamesAsync(string idOrName, CancellationToken cancellationToken = default) => await Fetch<SpeciesDetails>($"pokemon-species/{idOrName}", cancellationToken);
 
         public async Task<T?> Fetch<T>(string endpoint, CancellationToken cancellationToken = default) where T : class
         {          
