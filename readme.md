@@ -2,6 +2,7 @@
 
 A modern **Pokédex desktop application** built with **WPF (C#)** and the [PokéAPI](https://pokeapi.co/).  
 Displays full Pokémon information, official artwork, dynamic type-based backgrounds, and localized names (including Japanese).
+The Design is inspired by the work of [Mauro E. Wernly](https://github.com/mauroWernly).  
 
 ---
 
