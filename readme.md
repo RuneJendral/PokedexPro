@@ -17,7 +17,7 @@ The Design is inspired by the work of [Mauro E. Wernly](https://github.com/mauro
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Technology                  | Description                                                                |
 | --------------------------- | ---------------------------------------------------------------------------|
