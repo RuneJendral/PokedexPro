@@ -1,4 +1,4 @@
-﻿# 🧩 PokédexPro WPF
+﻿# PokédexPro WPF
 
 A modern **Pokédex desktop application** built with **WPF (C#)** and the [PokéAPI](https://pokeapi.co/).  
 Displays full Pokémon information, official artwork, dynamic type-based backgrounds, and localized names (including Japanese).
@@ -6,14 +6,14 @@ The Design is inspired by the work of [Mauro E. Wernly](https://github.com/mauro
 
 ---
 
-## ✨ Features
+## Features
   
-- 🧠 **Pokédex data fetching** — Retrieves Pokémon, abilities, moves, stats, and species info via the PokéAPI.  
-- 🇯🇵 **Multilingual support** — Fetches the **Japanese Pokémon name** from the species endpoint.  
-- ⚙️ **Base stat calculator** — Computes base stats and modifiers (IV/EV/Nature ready).  
-- 🔢 **Number picker** — Scrollable Pokémon ID selector for quick navigation.  
-- 🖼️ **Official artwork display** — Uses the high-quality sprites from the PokéAPI.  
-- 💡 **Clean MVVM architecture** — Separation of concerns between UI, logic, and data access.  
+- **Pokédex data fetching** — Retrieves Pokémon, abilities, moves, stats, and species info via the PokéAPI.  
+- **Multilingual support** — Fetches the **Japanese Pokémon name** from the species endpoint.  
+- **Base stat calculator** — Computes base stats and modifiers (IV/EV/Nature ready).  
+- **Number picker** — Scrollable Pokémon ID selector for quick navigation.  
+- **Official artwork display** — Uses the high-quality sprites from the PokéAPI.  
+- **Clean MVVM architecture** — Separation of concerns between UI, logic, and data access.  
 
 ---
 
