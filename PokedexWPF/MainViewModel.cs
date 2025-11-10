@@ -1,24 +1,53 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Windows.Input;
-using System.Threading;
-using System;
-using System.Linq;
-using PokedexLibrary.API;
+﻿using PokedexLibrary.API;
 using PokedexLibrary.API.DTOs.Pokemon;
 using PokedexLibrary.Calculations.Common;
+using System;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Threading;
+using System.Windows.Input;
 
 namespace PokedexWPF
 {
     public class MainViewModel : INotifyPropertyChanged
     {
         private readonly PokeApiClient _api = new();
-        private string _query = "bulbasaur";
+        private string _query = "1";
         private Pokemon? _pokemon;
         private Uri? _artwork;
         private bool _isBusy;
         private string? _error;
         private string? _japaneseName;
+        public MainViewModel()
+        {
+            UpdateNeighborIds();
+            _ = LoadAsync(CancellationToken.None);
+        }
+
+        private const int MinId = 1;
+        private const int MaxId = 1025;
+        private int _currentId = 1;
+
+        public int CurrentId
+        {
+            get => _currentId;
+            set
+            {
+                if (_currentId == value) return;
+                _currentId = Math.Clamp(value, MinId, MaxId);
+
+                Query = _currentId.ToString();
+
+                OnPropertyChanged();
+                UpdateNeighborIds();
+
+                _ = LoadAsync(CancellationToken.None);
+            }
+        }
+
+        public ObservableCollection<int> NeighborIds { get; } = new();
 
         public event PropertyChangedEventHandler? PropertyChanged;
         private void OnPropertyChanged([CallerMemberName] string? n = null)
@@ -38,7 +67,6 @@ namespace PokedexWPF
 
         public string? PrimaryType => Pokemon?.Types?.Count > 0 ? Pokemon.Types[0].Type.Name : null;
         public string? SecondaryType => Pokemon?.Types?.Count > 1 ? Pokemon.Types[1].Type.Name : null;
-
 
         public BaseStats BaseStats
         {
@@ -86,6 +114,18 @@ namespace PokedexWPF
 
         private ICommand? _search;
         public ICommand SearchCommand => _search ??= new AsyncCommand(LoadAsync);
+        public ICommand NextCommand => new RelayCommand(_ => CurrentId++);
+        public ICommand PrevCommand => new RelayCommand(_ => CurrentId--);
+
+        private void UpdateNeighborIds()
+        {
+            int start = Math.Max(MinId, CurrentId - 5);
+            int end = Math.Min(MaxId, start + 10);
+            if (end - start < 10) start = Math.Max(MinId, end - 10);
+
+            NeighborIds.Clear();
+            for (int i = start; i <= end; i++) NeighborIds.Add(i);
+        }
 
         private async Task LoadAsync(CancellationToken ct)
         {
@@ -127,5 +167,14 @@ namespace PokedexWPF
             try { await _run(CancellationToken.None); }
             finally { _busy = false; CanExecuteChanged?.Invoke(this, EventArgs.Empty); }
         }
+    }
+
+    public sealed class RelayCommand : ICommand
+    {
+        private readonly Action<object?> _run;
+        public RelayCommand(Action<object?> run) => _run = run;
+        public bool CanExecute(object? parameter) => true;
+        public void Execute(object? parameter) => _run(parameter);
+        public event EventHandler? CanExecuteChanged { add { } remove { } }
     }
 }
